@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../IMG TP/icono pets.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <header id="pets">
+        <nav class="menu">
+            <div class="logo">
+                <img src="../IMG TP/logo titulo.jpg" alt="">
+            </div>
+            
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html"><img src="../IMG TP/icono nav 2.jpg" alt="ico"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         SHOPS!
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./shop.html">Accesorios</a></li>
+                          <li><a class="dropdown-item" href="./shop.html">Alimentos</a></li>
+                
+                          
+                          <li><hr><a class="dropdown-item"
+                         href="./marcas.html">Marcas</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                     
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-3" type="search" placeholder="Busca un producto..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                    </form>
+                  </div>
+                </div>
+
+            </nav>
+        
+        <!-- 
+
+            <nav class="menu">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="../IMG TP/logo titulo.jpg" alt="titulo">
+                    </a>
+                </div>
+                <ul class="barraMenu">
+                    <strong>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./marcas.html">Marcas</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </strong>
+                </ul>
+            </nav>
+        -->
+<br>
+<div class="contactanos">
+    <h1>CONTACTANOS</h1>
+</div>
+<br>
+<div class="formulario">
+
+    <form action="enviar.php" method="" enctype=""> 
+        
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" placeholder="ingrese su nombre aqui" required> 
+        
+        
+        <br><br>
+    <div>
+        <label for="mail">Correo:</label> 
+        <input type="email" id="mail" name="correo" placeholder="Ingrese su email aqui..." required
+        >
+    </div>
+    <br>
+    <div>
+        <label for="mascota">¿Qué máscota tienes?</label>
+        <select name="" id="mascota">
+            <option value="">Ninguno</option>
+            <option value="">Perros</option>
+            <option value="">Gatos</option>
+            <option value="">Aves</option>
+            <option value="">Reptiles</option>
+            <option value="">Peces</option>
+            <option value="">Roedores</option>
+        </select>
+        
+    </div>
+    <br>
+    
+    
+    <br><br> 
+    <div>
+        <label for="comentarios"></label>
+        
+        <textarea name="" id="comentarios" cols="100" rows="10" placeholder="Ingrese un comentario aqui..."></textarea>
+        
+    </div>
+    
+    <br>
+    <div>
+        <label for="text">¿Te gusto nuestra atencion?</label>
+        <input type="radio" name="curso" id="si"> SI
+        <input type="radio" name="curso" id="no"> NO
+    
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="opciones" id="" required>No soy un robot.
+        <input type="checkbox" name="opciones" id="">Deseo recibir noticias y promociones.
+    </div>
+    <br>
+    
+    
+    <div>
+        <input type="submit" value="Enviar ahora"  >
+        <input type="reset" value="Borrar todo">
+        
+        
+    </div>
+    <br>
+</form>
+</div>
+
+<footer class="pieContacto">
+    <table border="0" cellspadding="10" cellspacing="10">
+        
+        <thead>
+            <strong>
+                <tr>
+                    <td>PETSHOP:</td>
+                    <td>CONTACTOS</td>
+                    <td>¿DONDE ESTAMOS?</td>
+                </tr>
+            </strong>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>4723-0034</td>
+                    <td>Hipolito Yrigoyen 1534</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Copyright 2022 © by CODERHOUSE</td>
+                </tr>
+            </tfoot>
+        
+        </table>
+        
+    </footer>
+    
+        
+    </body>
+    </html>
